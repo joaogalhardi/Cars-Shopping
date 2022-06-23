@@ -13,6 +13,11 @@ const CarBg = styled.div`
   gap: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
+
+  @media screen and (max-width: 1100px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
 `;
 
 const ImgCar = styled.img`
